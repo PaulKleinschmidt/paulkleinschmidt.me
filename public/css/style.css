@@ -1,0 +1,82 @@
+body {
+    color: black;
+    margin: 20px 250px 20px 250px;
+    font-family: 'Roboto Slab', serif;
+    background-color: rgb(255, 255, 255);
+}
+
+.myName {
+    text-align: center;
+}
+
+.censinet {
+    color: #6666ff;
+    transition: border-bottom 0.2s ease-in-out;
+}
+
+.censinet:hover {
+    border-bottom: 1px solid #6666ff;
+}
+
+.slashslash {
+    color: #e25353;
+}
+
+.wholeNav {
+    width: 100%;
+    overflow: hidden;
+    font-size: 18px; 
+}
+.rightNavMenu {
+    float: right;
+    width: 230px;
+}
+
+.leftNavMenu {
+    float:left; 
+}
+
+.pageContent {
+    margin-top: 100px
+}
+
+li {
+    display: inline;
+    padding-left: 40px;
+}
+
+.about {
+    padding-top: 20px;
+    line-height: 1.5;
+    font-size: 22px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    font-family: 'Roboto Slab', serif;
+}
+.navItem {
+    transition: border-bottom 0.2s ease-in-out;
+}
+.navItem:hover {
+    border-bottom: 1px solid black;
+}
+
+.contactLogos {
+    text-align:center;
+    margin: 0 auto;
+    flex-direction:row;
+}
+
+.logo {
+    padding: 50px;
+    height: 60px;
+
+}
+
+.linkedIn {
+    padding: 50px;
+    width: 200px;
+    position: relative;
+}
