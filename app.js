@@ -15,4 +15,6 @@ app.get(['/contact'], (request, response) => {
     response.render('contact')
 })
 
-app.listen(process.env.PORT || 3000)
+app.listen(process.env.PORT || 3000, () => {
+    console.log('we made it!')
+})
