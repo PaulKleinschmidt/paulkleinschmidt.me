@@ -1,7 +1,7 @@
 ##
-this is my new portfolio site! Built with pug.js, gulp, and express
+This is my new portfolio site! Built with pug.js, gulp, and express
 
-## instalation
+## installation
 `$ npm i express`\
 \
 `$ npm i gulp`
