@@ -2,11 +2,13 @@ var express = require('express')
 var app = express()
 var path = require('path');
 
+app.engine('pug', require('pug').__express)
+
 app.use(express.static('public'))
 
 app.set('view engine', 'pug')
 
-// routes 
+// routes
 app.get(['/', '/me'], (request, response) => {
     response.render('hello')
 })
