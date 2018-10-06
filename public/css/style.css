@@ -11,11 +11,10 @@ body {
 
 .censinet {
     color: #6666ff;
-    transition: border-bottom 0.2s ease-in-out;
 }
 
 .censinet:hover {
-    border-bottom: 1px solid #6666ff;
+    border-bottom: 3px solid #6666ff;
 }
 
 .slashslash {
@@ -25,7 +24,7 @@ body {
 .wholeNav {
     width: 100%;
     overflow: hidden;
-    font-size: 18px; 
+    font-size: 18px;
 }
 .rightNavMenu {
     float: right;
@@ -33,7 +32,7 @@ body {
 }
 
 .leftNavMenu {
-    float:left; 
+    float:left;
 }
 
 .pageContent {
@@ -60,7 +59,7 @@ a {
     transition: border-bottom 0.2s ease-in-out;
 }
 .navItem:hover {
-    border-bottom: 1px solid black;
+    color: #e25353;
 }
 
 .contactLogos {
