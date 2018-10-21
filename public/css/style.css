@@ -7,18 +7,53 @@ body {
 
 .myName {
     text-align: center;
+    margin-bottom: 10px;
+}
+
+button:focus {
+    outline: 1px solid #fff;
+    outline-offset: -4px;
+}
+
+button:active {
+    transform: scale(0.99);
+}
+
+#email {
+    margin-top: initial;
+    font-weight: lighter;
+}
+
+#email:hover {
+    transition: all 0.1s ease-in-out;
+    color: #e25353;
 }
 
 .censinet {
     color: #6666ff;
+    border-width: 0px;
 }
 
 .censinet:hover {
+    transition: all 0.1s ease-in-out;
     border-bottom: 3px solid #6666ff;
+    border-width: 4px;
 }
 
 .slashslash {
+    animation-name: rotate;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
     color: #e25353;
+    letter-spacing: 2px;
+    transition: all 1s ease-in;
+}
+
+.slashslash:hover {
+    color: #e97f7f;
+    transition: all .5s ease-in-out;
+    letter-spacing: 7px;
+    display: inline-block;
 }
 
 .wholeNav {
@@ -36,7 +71,9 @@ body {
 }
 
 .pageContent {
-    margin-top: 100px
+    margin-top: 100px;
+    display: grid;
+    justify-content: center;
 }
 
 li {
@@ -45,7 +82,7 @@ li {
 }
 
 .about {
-    padding-top: 20px;
+    padding-top: 15px;
     line-height: 1.5;
     font-size: 22px;
 }
@@ -55,27 +92,73 @@ a {
     text-decoration: none;
     font-family: 'Roboto Slab', serif;
 }
+
+
 .navItem {
-    transition: border-bottom 0.2s ease-in-out;
+    transition: color .2s ease-in-out;
+
 }
 .navItem:hover {
+    transition: color 0s ease-in-out;
     color: #e25353;
 }
 
 .contactLogos {
-    text-align:center;
+    height: 60px;
+    /* text-align: center; */
+    flex-direction: row;
+    display: flex;
     margin: 0 auto;
-    flex-direction:row;
 }
 
 .logo {
-    padding: 50px;
-    height: 60px;
+    padding: 10px;
+    height: 30px;
+    border-width: 0px;
+}
 
+.logo:hover {
+    transition: border-bottom 0.1s linear;
+    border-bottom: 3px solid #e25353;
+    border-width: 5px;
 }
 
 .linkedIn {
-    padding: 50px;
-    width: 200px;
+    height: 30px;
+    padding: 10px;
+    width: 30px;
     position: relative;
+    border-width: 0px;
 }
+
+.linkedIn:hover {
+    transition: border-bottom .1s linear;
+    border-bottom: 3px solid #e25353;
+    border-width: 5px;
+}
+
+
+
+.tooltip {
+    color: #e25353;
+    opacity: 0
+}
+
+#email:hover .tooltip {
+    opacity: 1
+}
+
+.react {
+    color: #00d8ff;
+}
+
+.ruby {
+    color: red;
+}
+
+.typescript {
+    color: #4c4cff;
+}
+
+
+
