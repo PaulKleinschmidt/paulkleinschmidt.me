@@ -6,6 +6,10 @@ app.engine('pug', require('pug').__express)
 
 app.use(express.static('public'))
 
+app.use('/scripts', express.static(__dirname + '/scripts'));
+
+app.use('/lib', express.static(__dirname + '/node_modules/animejs/lib'));
+
 app.set('view engine', 'pug')
 
 // routes
