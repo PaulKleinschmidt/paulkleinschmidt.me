@@ -21,9 +21,3 @@ var tl = anime.timeline({
         controlsProgressEl.value = tl.progress;
     }
 });
-
-const test = () => {
-    console.log("hi")
-}
-
-test()
