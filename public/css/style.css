@@ -1,6 +1,6 @@
 body {
     color: black;
-    margin: 0px 400px 200px 400px;
+    margin: 0px 20% 200px 20%;
     font-family: 'Roboto Slab', serif;
     background-color: rgb(255, 255, 255);
 }
@@ -8,7 +8,6 @@ body {
 .myName {
     flex: 1;
     margin-bottom: 10px;
-    /* margin-left: 80px;floa */
     text-align-last: center;
 }
 
@@ -120,8 +119,7 @@ li {
     line-height: 1.5;
     font-size: 29px;
     text-align: center;
-    font-weight:100
-    /* max-width: 800px; */
+    font-weight: 100
 }
 
 .paul {
@@ -143,7 +141,6 @@ a {
 
 
 .navItem {
-    transition: color .1s ease-in-out;
     transition: border-bottom 0.1s linear;
     border-bottom: none;
     margin-right: 32px;
@@ -155,7 +152,6 @@ a {
 }
 
 .navItemSelected {
-    transition: color .1s ease-in;
     color: #e25353;
     margin-right: 32px;
     font-size: 22px;
