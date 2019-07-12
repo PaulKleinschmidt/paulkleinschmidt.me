@@ -2,7 +2,7 @@ body {
     color: black;
     margin: 0px 20% 200px 20%;
     font-family: 'Noto Serif', serif;
-    background-color: rgb(255, 255, 255);
+    background-color: #f9f9f9;
     -webkit-animation: fadein 1s; /* Safari, Chrome and Opera > 12.1 */
        -moz-animation: fadein 1s; /* Firefox < 16 */
         -ms-animation: fadein 1s; /* Internet Explorer */
@@ -121,10 +121,11 @@ li {
 
 .about {
     padding-top: 15px;
-    line-height: 1.5;
+    padding-bottom: 0;
+    line-height: 2;
     font-size: 29px;
     text-align: center;
-    font-weight: 100
+    font-weight: 100;
 }
 
 @keyframes fadein {
@@ -174,8 +175,6 @@ a {
 
 
 .info-hidden {
-    margin-top: 100px;
-
    display: none
 }
 
